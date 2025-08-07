@@ -6,3 +6,5 @@
   right: 0;
   top: 0;
   bottom: 0;}
+.breadcrumbs-item ol{display:flex;flex-wrap:wrap;}
+.breadcrumbs-item ol li+li::before{display:inline-block}
